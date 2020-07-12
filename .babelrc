@@ -1,0 +1,26 @@
+{
+    "presets": ["next/babel"],
+  
+    "plugins": [
+      ["import", { "libraryName": "antd", "style": true }],
+      [
+        "module-resolver",
+        {
+          "root": ["./"],
+          "alias": {
+            "@actions": "./src/actions",
+            "@api": "./src/api",
+            "@assets": "./src/assets",
+            "@components": "./src/components",
+            "@errors": "./src/errors",
+            "@models": "./src/models",
+            "@reducers": "./src/reducers",
+            "@redux": "./src/redux",
+            "@sagas": "./src/sagas",
+            "@types": "./src/types"
+          }
+        }
+      ]
+    ]
+  }
+  
