@@ -26,7 +26,7 @@ const HeaderBow: React.FC<{}> = () => {
           <Row>
             <Col span={4}>
               <div style={{ color: "white" }}>
-              Recognize Handwritten Digits</div>
+              Hello World</div>
             </Col>
           </Row>
         </div>
